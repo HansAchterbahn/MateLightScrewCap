@@ -1,0 +1,24 @@
+{
+    "Header": {
+        "Comment": "All values are metric (mm)",
+        "CreationDate": "2019-10-31T20:27:52Z",
+        "GenerationSoftware": {
+            "Application": "EAGLE",
+            "Vendor": "Autodesk",
+            "Version": "9.5.1"
+        },
+        "Part": "Single"
+    },
+    "Overall": {
+        "BoardThickness": 1.586,
+        "LayerNumber": 2,
+        "Name": {
+            "ProjectId": "MateLightScrewCap"
+        },
+        "Owner": "Mario Hesse <mario.hesse@hawk.de>",
+        "Size": {
+            "X": 24,
+            "Y": 24
+        }
+    }
+}
