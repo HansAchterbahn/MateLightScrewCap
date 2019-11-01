@@ -173,7 +173,7 @@
 </layers>
 <schematic xreflabel="%F%N/%S.%C%R" xrefpart="/%S.%C%R">
 <libraries>
-<library name="h8-frame">
+<library name="h8-frame" urn="urn:adsk.eagle:library:13329330">
 <description>&lt;h4&gt;Frame&lt;/h4&gt;
 
 &lt;p&gt;Library with different types of circuit frames&lt;/p&gt;
@@ -185,7 +185,7 @@ Created by Hans Achterbahn &lt;br /&gt;
 <packages>
 </packages>
 <symbols>
-<symbol name="A4L-LOC">
+<symbol name="A4L-LOC" urn="urn:adsk.eagle:symbol:13329332/1" library_version="1">
 <wire x1="256.54" y1="3.81" x2="256.54" y2="8.89" width="0.1016" layer="94"/>
 <wire x1="256.54" y1="8.89" x2="256.54" y2="13.97" width="0.1016" layer="94"/>
 <wire x1="256.54" y1="13.97" x2="256.54" y2="19.05" width="0.1016" layer="94"/>
@@ -206,13 +206,13 @@ Created by Hans Achterbahn &lt;br /&gt;
 <text x="194.31" y="10.16" size="2.286" layer="94">Datum:</text>
 <text x="254" y="5.08" size="2.54" layer="94" rot="MR0">&gt;SHEET</text>
 <text x="194.056" y="4.953" size="2.54" layer="94">Version:</text>
-<frame x1="0" y1="0" x2="260.35" y2="179.07" columns="6" rows="4" layer="94"/>
 <text x="194.31" y="20.32" size="2.54" layer="94">Projekt:</text>
 <text x="233.045" y="5.08" size="2.54" layer="94">Seite:</text>
+<frame x1="0" y1="0" x2="260.35" y2="179.07" columns="6" rows="4" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="A4L-LOC" prefix="FRAME" uservalue="yes">
+<deviceset name="A4L-LOC" urn="urn:adsk.eagle:component:13329335/1" prefix="FRAME" uservalue="yes" library_version="1">
 <description>&lt;b&gt;FRAME&lt;/b&gt;&lt;p&gt;
 DIN A4, landscape with location and doc. field</description>
 <gates>
@@ -491,7 +491,7 @@ Created by Hans Achterbahn &lt;br /&gt;
 </deviceset>
 </devicesets>
 </library>
-<library name="h8-conector" urn="urn:adsk.eagle:library:2794810">
+<library name="h8-connector" urn="urn:adsk.eagle:library:13329207">
 <description>&lt;h4&gt;Conector&lt;/h4&gt;
 
 &lt;p&gt;Library with common used conectors&lt;/p&gt;
@@ -501,147 +501,103 @@ Created by Hans Achterbahn &lt;br /&gt;
 (&lt;a href="https://github.com/HansAchterbahn"&gt;https://github.com/HansAchterbahn&lt;/a&gt;)
 &lt;/author&gt;&lt;p&gt;</description>
 <packages>
-<package name="PHOENIX-1778780" urn="urn:adsk.eagle:footprint:2794831/1" library_version="18" library_locally_modified="yes">
-<description>&lt;b&gt;Phoenix Contact COMBICON PTSM 0,5/ 4-HH-2,5-SMD R32 - 1778780&lt;/b&gt;
-
-&lt;p&gt;Pinheader with snap&lt;/p&gt;
-
-&lt;p&gt; Compartible:
-&lt;ul&gt;
-  &lt;li&gt;SMD&lt;/li&gt;
-  &lt;li&gt;Pole: 4 pol&lt;/li&gt;
-  &lt;li&gt;Rows: 1 row&lt;/li&gt;
-  &lt;li&gt;Grid: 2.5 mm&lt;/li&gt;
-  &lt;li&gt;Current: 6A &lt;/li&gt;
-&lt;/ul&gt;
-&lt;/p&gt;
-
-&lt;p&gt;Can be used with :
-&lt;ul&gt;
-  &lt;li&gt;Leiterplattensteckverbinder - PTSM 0,5/ 4-P-2,5 - 1778858 &lt;/li&gt;
-&lt;/ul&gt;
-
-
-&lt;p&gt;
-Homepage : &lt;a href="https://www.phoenixcontact.com/online/portal/de/?uri=pxc-oc-itemdetail:pid=1778780&amp;library=dede&amp;pcck=P-11-02-11&amp;tab=1&amp;selectedCategory=ALL"&gt;https://www.phoenixcontact.com/online/portal/de/?uri=pxc-oc-itemdetail:pid=1778780&amp;library=dede&amp;pcck=P-11-02-11&amp;tab=1&amp;selectedCategory=ALL&lt;/a&gt; &lt;br /&gt;
-Datasheet: &lt;a href="https://docs-emea.rs-online.com/webdocs/12b7/0900766b812b7090.pdf"&gt;https://docs-emea.rs-online.com/webdocs/12b7/0900766b812b7090.pdf&lt;/a&gt; &lt;br /&gt;
-&lt;/p&gt;
-
-&lt;p&gt;&lt;author&gt;Created by Hans Achterbahn &lt;br /&gt; (&lt;a href="https://github.com/HansAchterbahn"&gt;https://github.com/HansAchterbahn&lt;/a&gt;)&lt;/author&gt;&lt;p&gt;</description>
-<smd name="NC1" x="-1.1" y="4" dx="5.6" dy="2.2" layer="1" rot="R90"/>
-<smd name="NC2" x="12.8" y="4" dx="5.6" dy="2.2" layer="1" rot="R90"/>
-<smd name="1" x="2.1" y="8.2" dx="1.2" dy="3.2" layer="1"/>
-<smd name="2" x="4.6" y="8.2" dx="1.2" dy="3.2" layer="1"/>
-<smd name="3" x="7.1" y="8.2" dx="1.2" dy="3.2" layer="1"/>
-<smd name="4" x="9.6" y="8.2" dx="1.2" dy="3.2" layer="1"/>
-<hole x="1" y="2.85" drill="1.1"/>
-<hole x="10.7" y="2.85" drill="1.1"/>
-<wire x1="0" y1="0" x2="4.85" y2="0" width="0.127" layer="21"/>
-<wire x1="4.85" y1="0" x2="5.15" y2="0.35" width="0.127" layer="21"/>
-<wire x1="5.15" y1="0.35" x2="6.55" y2="0.35" width="0.127" layer="21"/>
-<wire x1="6.55" y1="0.35" x2="6.85" y2="0" width="0.127" layer="21"/>
-<wire x1="6.85" y1="0" x2="11.7" y2="0" width="0.127" layer="21"/>
-<wire x1="0" y1="7.5" x2="1.1625" y2="7.5" width="0.127" layer="21"/>
-<wire x1="1.1625" y1="7.5" x2="3.0375" y2="7.5" width="0.127" layer="51"/>
-<wire x1="3.0375" y1="7.5" x2="3.6625" y2="7.5" width="0.127" layer="21"/>
-<wire x1="3.6625" y1="7.5" x2="5.5375" y2="7.5" width="0.127" layer="51"/>
-<wire x1="10.5375" y1="7.5" x2="11.7" y2="7.5" width="0.127" layer="21"/>
-<wire x1="6.1625" y1="7.5" x2="8.0375" y2="7.5" width="0.127" layer="51"/>
-<wire x1="8.6625" y1="7.5" x2="10.5375" y2="7.5" width="0.127" layer="51"/>
-<wire x1="5.5375" y1="7.5" x2="6.1625" y2="7.5" width="0.127" layer="21"/>
-<wire x1="8.0375" y1="7.5" x2="8.6625" y2="7.5" width="0.127" layer="21"/>
-<wire x1="0" y1="7.1875" x2="0" y2="7.5" width="0.127" layer="21"/>
-<wire x1="0" y1="0" x2="0" y2="0.9375" width="0.127" layer="21"/>
-<wire x1="0" y1="0.9375" x2="0" y2="7.1875" width="0.127" layer="51"/>
-<wire x1="11.7" y1="7.1875" x2="11.7" y2="7.5" width="0.127" layer="21"/>
-<wire x1="11.7" y1="0" x2="11.7" y2="0.9375" width="0.127" layer="21"/>
-<wire x1="11.7" y1="0.9375" x2="11.7" y2="7.1875" width="0.127" layer="51"/>
-<text x="0.25" y="11.55" size="1" layer="25">&gt;NAME</text>
-<text x="0.25" y="10.15" size="1" layer="25">&gt;VALUE</text>
+<package name="JST_S4B-PH-SM4-TB" urn="urn:adsk.eagle:footprint:14877511/3" library_version="8">
+<wire x1="-5.95" y1="-7.6" x2="5.95" y2="-7.6" width="0.127" layer="51"/>
+<wire x1="5.95" y1="-7.6" x2="5.95" y2="0" width="0.127" layer="51"/>
+<wire x1="5.95" y1="0" x2="-5.95" y2="0" width="0.127" layer="51"/>
+<wire x1="-5.95" y1="0" x2="-5.95" y2="-7.6" width="0.127" layer="51"/>
+<wire x1="3.95" y1="0" x2="-3.95" y2="0" width="0.127" layer="21"/>
+<wire x1="-5.95" y1="-4" x2="-5.95" y2="-7.6" width="0.127" layer="21"/>
+<wire x1="5.95" y1="-7.6" x2="5.95" y2="-4" width="0.127" layer="21"/>
+<wire x1="4.05" y1="-7.6" x2="5.95" y2="-7.6" width="0.127" layer="21"/>
+<wire x1="-5.95" y1="-7.6" x2="-4.05" y2="-7.6" width="0.127" layer="21"/>
+<circle x="3.9" y="-8.85" radius="0.127" width="0" layer="21"/>
+<text x="-6" y="-11.25" size="1.270340625" layer="25">&gt;NAME</text>
+<text x="-6" y="-12.75" size="1.270540625" layer="27">&gt;VALUE</text>
+<smd name="3" x="-1" y="-7.25" dx="1" dy="3.5" layer="1"/>
+<smd name="4" x="-3" y="-7.25" dx="1" dy="3.5" layer="1"/>
+<smd name="2" x="1" y="-7.25" dx="1" dy="3.5" layer="1"/>
+<smd name="1" x="3" y="-7.25" dx="1" dy="3.5" layer="1"/>
+<smd name="P2" x="-5.35" y="-1.5" dx="1.5" dy="3.4" layer="1"/>
+<smd name="P1" x="5.35" y="-1.5" dx="1.5" dy="3.4" layer="1"/>
 </package>
 </packages>
 <packages3d>
-<package3d name="PHOENIX-1778780" urn="urn:adsk.eagle:package:2794840/2" type="model" library_version="18" library_locally_modified="yes">
-<description>&lt;b&gt;Phoenix Contact COMBICON PTSM 0,5/ 4-HH-2,5-SMD R32 - 1778780&lt;/b&gt;
-
-&lt;p&gt;Pinheader with snap&lt;/p&gt;
-
-&lt;p&gt; Compartible:
-&lt;ul&gt;
-  &lt;li&gt;SMD&lt;/li&gt;
-  &lt;li&gt;Pole: 4 pol&lt;/li&gt;
-  &lt;li&gt;Rows: 1 row&lt;/li&gt;
-  &lt;li&gt;Grid: 2.5 mm&lt;/li&gt;
-  &lt;li&gt;Current: 6A &lt;/li&gt;
-&lt;/ul&gt;
-&lt;/p&gt;
-
-&lt;p&gt;Can be used with :
-&lt;ul&gt;
-  &lt;li&gt;Leiterplattensteckverbinder - PTSM 0,5/ 4-P-2,5 - 1778858 &lt;/li&gt;
-&lt;/ul&gt;
-
-
-&lt;p&gt;
-Homepage : &lt;a href="https://www.phoenixcontact.com/online/portal/de/?uri=pxc-oc-itemdetail:pid=1778780&amp;library=dede&amp;pcck=P-11-02-11&amp;tab=1&amp;selectedCategory=ALL"&gt;https://www.phoenixcontact.com/online/portal/de/?uri=pxc-oc-itemdetail:pid=1778780&amp;library=dede&amp;pcck=P-11-02-11&amp;tab=1&amp;selectedCategory=ALL&lt;/a&gt; &lt;br /&gt;
-Datasheet: &lt;a href="https://docs-emea.rs-online.com/webdocs/12b7/0900766b812b7090.pdf"&gt;https://docs-emea.rs-online.com/webdocs/12b7/0900766b812b7090.pdf&lt;/a&gt; &lt;br /&gt;
-&lt;/p&gt;
-
-&lt;p&gt;&lt;author&gt;Created by Hans Achterbahn &lt;br /&gt; (&lt;a href="https://github.com/HansAchterbahn"&gt;https://github.com/HansAchterbahn&lt;/a&gt;)&lt;/author&gt;&lt;p&gt;</description>
+<package3d name="JST_S4B-PH-SM4-TB" urn="urn:adsk.eagle:package:14877512/5" type="model" library_version="11">
 <packageinstances>
-<packageinstance name="PHOENIX-1778780"/>
+<packageinstance name="JST_S4B-PH-SM4-TB"/>
 </packageinstances>
 </package3d>
 </packages3d>
 <symbols>
-<symbol name="PINH1X4" urn="urn:adsk.eagle:symbol:2794817/1" library_version="18" library_locally_modified="yes">
-<pin name="1" x="-7.62" y="0" length="short" direction="pas" swaplevel="1"/>
-<pin name="2" x="-7.62" y="-2.54" length="short" direction="pas" swaplevel="1"/>
-<pin name="3" x="-7.62" y="-5.08" length="short" direction="pas" swaplevel="1"/>
-<pin name="4" x="-7.62" y="-7.62" length="short" direction="pas" swaplevel="1"/>
-<wire x1="-5.08" y1="-10.16" x2="-5.08" y2="2.54" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="2.54" x2="2.54" y2="2.54" width="0.254" layer="94"/>
+<symbol name="S4B-PH-SM4-TB" urn="urn:adsk.eagle:symbol:14877510/2" library_version="8">
+<wire x1="5.08" y1="0" x2="7.62" y2="0" width="0.762" layer="94"/>
+<wire x1="5.08" y1="-2.54" x2="7.62" y2="-2.54" width="0.762" layer="94"/>
+<wire x1="5.08" y1="-5.08" x2="7.62" y2="-5.08" width="0.762" layer="94"/>
+<wire x1="5.08" y1="-7.62" x2="7.62" y2="-7.62" width="0.762" layer="94"/>
 <wire x1="2.54" y1="2.54" x2="2.54" y2="-10.16" width="0.254" layer="94"/>
-<wire x1="2.54" y1="-10.16" x2="-5.08" y2="-10.16" width="0.254" layer="94"/>
-<text x="-5.08" y="2.794" size="1.778" layer="95">&gt;NAME</text>
-<text x="-5.08" y="-10.414" size="1.778" layer="96" rot="MR180">&gt;VALUE</text>
+<wire x1="2.54" y1="-10.16" x2="10.16" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-10.16" x2="10.16" y2="2.54" width="0.254" layer="94"/>
+<wire x1="10.16" y1="2.54" x2="2.54" y2="2.54" width="0.254" layer="94"/>
+<text x="2.537240625" y="2.546890625" size="1.27138125" layer="95">&gt;NAME</text>
+<text x="2.53893125" y="-11.43321875" size="1.270540625" layer="96">&gt;VALUE</text>
+<pin name="2" x="0" y="-2.54" length="middle" direction="pas"/>
+<pin name="1" x="0" y="0" length="middle" direction="pas"/>
+<pin name="3" x="0" y="-5.08" length="middle" direction="pas"/>
+<pin name="4" x="0" y="-7.62" length="middle" direction="pas"/>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="PHOENIX-1778780" urn="urn:adsk.eagle:component:2794853/3" prefix="X" library_version="18" library_locally_modified="yes">
-<description>&lt;img src="https://www.phoenixcontact.com/assets/images_pr/product_photos/small1/43626_1000_int_01.jpg" alt="Pic Phoenix 1778780"&gt;
-
-&lt;p&gt;&lt;b&gt;Phoenix Contact COMBICON PTSM 0,5/ 4-HH-2,5-SMD R32 - 1778780&lt;/b&gt;&lt;/p&gt;
-
-&lt;p&gt;Pinheader with snap&lt;/p&gt;
-
-&lt;p&gt; Features:
-&lt;ul&gt;
-  &lt;li&gt;SMD&lt;/li&gt;
-  &lt;li&gt;Pole: 4 pol&lt;/li&gt;
-  &lt;li&gt;Rows: 1 row&lt;/li&gt;
-  &lt;li&gt;Grid: 2.5 mm&lt;/li&gt;
-  &lt;li&gt;Current: 6A &lt;/li&gt;
-&lt;/ul&gt;
-&lt;/p&gt;
-
-&lt;p&gt;Can be used with :
-&lt;ul&gt;
-  &lt;li&gt;Leiterplattensteckverbinder - PTSM 0,5/ 4-P-2,5 - 1778858 &lt;/li&gt;
-&lt;/ul&gt;
-
+<deviceset name="S4B-PH-SM4-TB" urn="urn:adsk.eagle:component:14877513/7" prefix="P" library_version="11">
+<description>&lt;h3&gt;JST - S4B-PH-SM4-TB&lt;/h3&gt;
 
 &lt;p&gt;
-Homepage : &lt;a href="https://www.phoenixcontact.com/online/portal/de/?uri=pxc-oc-itemdetail:pid=1778780&amp;library=dede&amp;pcck=P-11-02-11&amp;tab=1&amp;selectedCategory=ALL"&gt;https://www.phoenixcontact.com/online/portal/de/?uri=pxc-oc-itemdetail:pid=1778780&amp;library=dede&amp;pcck=P-11-02-11&amp;tab=1&amp;selectedCategory=ALL&lt;/a&gt; &lt;br /&gt;
-Datasheet: &lt;a href="https://docs-emea.rs-online.com/webdocs/12b7/0900766b812b7090.pdf"&gt;https://docs-emea.rs-online.com/webdocs/12b7/0900766b812b7090.pdf&lt;/a&gt; &lt;br /&gt;
+&lt;table&gt;
+  &lt;tr&gt;
+    &lt;td&gt;Hersteller: &lt;/td&gt;
+    &lt;td&gt;JST &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt; Grid: &lt;/td&gt;
+    &lt;td&gt; 2.00 mm &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt; Montage: &lt;/td&gt;
+    &lt;td&gt; SMD &lt;/td&gt;
+  &lt;tr&gt;
+    &lt;td&gt; Nennstrom: &lt;/td&gt;
+    &lt;td&gt; 2A (AWG#24) &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt; Nennspannung &lt;/td&gt;
+    &lt;td&gt; 100 V &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
 &lt;/p&gt;
 
-&lt;p&gt;&lt;author&gt;Created by Hans Achterbahn &lt;br /&gt; (&lt;a href="https://github.com/HansAchterbahn"&gt;https://github.com/HansAchterbahn&lt;/a&gt;)&lt;/author&gt;&lt;p&gt;</description>
+&lt;p&gt;
+&lt;img height="300" src="https://media.digikey.com/photos/JST%20Photos/S4B-PH-SM3-TB.jpg" alt="Bild S4B-PH-SM4-TB"  /&gt;
+&lt;/p&gt;
+
+&lt;p&gt;
+Homepage: &lt;a href="https://order.jst-mfg.com/InternetShop/app/index.php?back=2&amp;product=57531300&amp;jgcd=0#showProductDetail"&gt;https://order.jst-mfg.com/InternetShop/app/index.php?back=2&amp;product=57531300&amp;jgcd=0#showProductDetail&lt;/a&gt; &lt;br /&gt;
+Datenblatt: &lt;a href="http://www.jst-mfg.com/product/pdf/eng/ePH.pdf?5dbadb1b33e6d"&gt;http://www.jst-mfg.com/product/pdf/eng/ePH.pdf?5dbadb1b33e6d&lt;/a&gt;
+&lt;/p&gt;
+
+&lt;p&gt;
+&lt;i&gt;&lt;b&gt;Created by SnapEDA &lt;/b&gt;&lt;br /&gt;
+(&lt;a href="https://www.snapeda.com/parts/S4B-PH-SM4-TB/JST%20Sales/view-part/?ref=search&amp;t=S4B-PH-SM4-T"&gt;S4B-PH-SM4-T&lt;/a&gt;)&lt;/i&gt;
+&lt;/p&gt;
+
+&lt;p&gt;
+&lt;i&gt;&lt;b&gt;Edited by Hans Achterbahn &lt;/b&gt;&lt;br /&gt; 
+(&lt;a href="https://github.com/HansAchterbahn"&gt;https://github.com/HansAchterbahn&lt;/a&gt;)&lt;/i&gt;
+&lt;/p&gt;</description>
 <gates>
-<gate name="G$1" symbol="PINH1X4" x="-10.16" y="0"/>
+<gate name="G$1" symbol="S4B-PH-SM4-TB" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="PHOENIX-1778780">
+<device name="" package="JST_S4B-PH-SM4-TB">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -649,14 +605,16 @@ Datasheet: &lt;a href="https://docs-emea.rs-online.com/webdocs/12b7/0900766b812b
 <connect gate="G$1" pin="4" pad="4"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:2794840/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14877512/5"/>
 </package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="MF" value="Phoenix Contact" constant="no"/>
-<attribute name="MFN" value="1778780" constant="no"/>
-<attribute name="MOUSER" value="651-1778780" constant="no"/>
-<attribute name="RS-ONLINE" value="801-9958" constant="no"/>
+<attribute name="DESCRIPTION" value=" Socket; wire-board; male; PIN: 4; 2mm; SMT; PH; 100V; 2A; -25÷85°C "/>
+<attribute name="DIGI-KEY" value="455-1751-2-ND" constant="no"/>
+<attribute name="MF" value="JST Sales"/>
+<attribute name="MFN" value="S4B-PH-SM4-TB"/>
+<attribute name="MOUSER" value="-" constant="no"/>
+<attribute name="RS-ONLINE" value="688-1366" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -666,10 +624,10 @@ Datasheet: &lt;a href="https://docs-emea.rs-online.com/webdocs/12b7/0900766b812b
 </library>
 </libraries>
 <attributes>
-<attribute name="DATE" value="26.10.2019"/>
+<attribute name="DATE" value="31.10.2019"/>
 <attribute name="EDITOR" value="Hans Achterbahn"/>
 <attribute name="LICENSE" value="MIT License"/>
-<attribute name="PROJECT" value="MateLight-ScrewCap-PCB"/>
+<attribute name="PROJECT" value="MateLightScrewCap-PCB"/>
 <attribute name="VERSION" value="v0.1.0"/>
 </attributes>
 <variantdefs>
@@ -683,12 +641,12 @@ Datasheet: &lt;a href="https://docs-emea.rs-online.com/webdocs/12b7/0900766b812b
 </class>
 </classes>
 <parts>
-<part name="FRAME3" library="h8-frame" deviceset="A4L-LOC" device=""/>
+<part name="FRAME3" library="h8-frame" library_urn="urn:adsk.eagle:library:13329330" deviceset="A4L-LOC" device=""/>
 <part name="LD1" library="h8-optic" library_urn="urn:adsk.eagle:library:11858716" deviceset="APA102" device="APA102C-5050" package3d_urn="urn:adsk.eagle:package:11858725/2" value="APA102"/>
 <part name="GND15" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="P+4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
-<part name="X1" library="h8-conector" library_urn="urn:adsk.eagle:library:2794810" deviceset="PHOENIX-1778780" device="" package3d_urn="urn:adsk.eagle:package:2794840/2"/>
-<part name="X3" library="h8-conector" library_urn="urn:adsk.eagle:library:2794810" deviceset="PHOENIX-1778780" device="" package3d_urn="urn:adsk.eagle:package:2794840/2"/>
+<part name="X2" library="h8-connector" library_urn="urn:adsk.eagle:library:13329207" deviceset="S4B-PH-SM4-TB" device="" package3d_urn="urn:adsk.eagle:package:14877512/5" value="S4B-PH-SM4"/>
+<part name="X1" library="h8-connector" library_urn="urn:adsk.eagle:library:13329207" deviceset="S4B-PH-SM4-TB" device="" package3d_urn="urn:adsk.eagle:package:14877512/5" value="S4B-PH-SM4"/>
 <part name="P+2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -697,42 +655,44 @@ Datasheet: &lt;a href="https://docs-emea.rs-online.com/webdocs/12b7/0900766b812b
 <sheets>
 <sheet>
 <plain>
-<text x="208.28" y="20.32" size="2.54" layer="97">&gt;PROJECT</text>
-<text x="208.28" y="15.24" size="2.54" layer="97">&gt;EDITOR</text>
-<text x="208.28" y="10.16" size="2.54" layer="97">&gt;DATE</text>
-<text x="208.28" y="5.08" size="2.54" layer="97">&gt;VERSION</text>
-<text x="137.16" y="7.62" size="1.778" layer="97" font="vector">I_APA102
-= max. 27 mA @ 5 V</text>
-<text x="149.86" y="20.32" size="2.54" layer="97">&gt;LICENSE</text>
-<text x="134.62" y="20.32" size="2.54" layer="94">License:</text>
+<text x="208.28" y="20.32" size="2.54" layer="97" font="vector">&gt;PROJECT</text>
+<text x="208.28" y="15.24" size="2.54" layer="97" font="vector">&gt;EDITOR</text>
+<text x="208.28" y="10.16" size="2.54" layer="97" font="vector">&gt;DATE</text>
+<text x="208.28" y="5.08" size="2.54" layer="97" font="vector">&gt;VERSION</text>
+<text x="134.62" y="7.62" size="2.54" layer="97" font="vector">I_APA102 = max. 20mA @ 5V</text>
+<text x="152.4" y="20.32" size="2.54" layer="97" font="vector">&gt;LICENSE</text>
+<text x="134.62" y="20.32" size="2.54" layer="94" font="vector">License:</text>
+<text x="7.62" y="7.62" size="2.54" layer="97" font="vector">It is permitted to operate 80 of these modules in series 
+with a 5V/2A power supply. After 80 modules an additional 
+5V/2A power supply is required!</text>
 </plain>
 <instances>
 <instance part="FRAME3" gate="G$1" x="0" y="0" smashed="yes">
-<attribute name="SHEET" x="254" y="5.08" size="2.54" layer="94" rot="MR0"/>
+<attribute name="SHEET" x="254" y="5.08" size="2.54" layer="94" font="vector" rot="MR0"/>
 </instance>
-<instance part="LD1" gate="G$1" x="134.62" y="86.36" smashed="yes">
-<attribute name="NAME" x="127" y="97.282" size="1.778" layer="95"/>
-<attribute name="VALUE" x="127" y="73.66" size="1.778" layer="96"/>
+<instance part="LD1" gate="G$1" x="129.54" y="91.44" smashed="yes">
+<attribute name="NAME" x="121.92" y="102.362" size="1.778" layer="95"/>
+<attribute name="VALUE" x="121.92" y="78.74" size="1.778" layer="96"/>
 </instance>
-<instance part="GND15" gate="1" x="147.32" y="73.66" smashed="yes"/>
-<instance part="P+4" gate="1" x="147.32" y="99.06" smashed="yes" rot="MR0">
-<attribute name="VALUE" x="149.86" y="93.98" size="1.778" layer="96" rot="MR90"/>
+<instance part="GND15" gate="1" x="142.24" y="78.74" smashed="yes"/>
+<instance part="P+4" gate="1" x="142.24" y="104.14" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="144.78" y="99.06" size="1.778" layer="96" rot="MR90"/>
 </instance>
-<instance part="X1" gate="G$1" x="185.42" y="83.82" smashed="yes" rot="MR180">
-<attribute name="NAME" x="180.34" y="96.266" size="1.778" layer="95" rot="MR180"/>
-<attribute name="VALUE" x="180.34" y="78.994" size="1.778" layer="96"/>
+<instance part="X2" gate="G$1" x="180.34" y="88.9" smashed="yes" rot="MR180">
+<attribute name="NAME" x="182.88" y="101.346" size="1.778" layer="95" rot="MR180"/>
+<attribute name="VALUE" x="182.88" y="84.074" size="1.778" layer="96"/>
 </instance>
-<instance part="X3" gate="G$1" x="83.82" y="91.44" smashed="yes" rot="MR0">
-<attribute name="NAME" x="88.9" y="94.234" size="1.778" layer="95" rot="MR0"/>
-<attribute name="VALUE" x="88.9" y="81.026" size="1.778" layer="96" rot="R180"/>
+<instance part="X1" gate="G$1" x="78.74" y="96.52" smashed="yes" rot="MR0">
+<attribute name="NAME" x="76.2" y="99.314" size="1.778" layer="95" rot="MR0"/>
+<attribute name="VALUE" x="76.2" y="86.106" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="P+2" gate="1" x="172.72" y="99.06" smashed="yes" rot="MR0">
-<attribute name="VALUE" x="175.26" y="93.98" size="1.778" layer="96" rot="MR90"/>
+<instance part="P+2" gate="1" x="167.64" y="104.14" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="170.18" y="104.14" size="1.778" layer="96" rot="MR180"/>
 </instance>
-<instance part="GND1" gate="1" x="167.64" y="99.06" smashed="yes" rot="R180"/>
-<instance part="GND2" gate="1" x="101.6" y="99.06" smashed="yes" rot="R180"/>
-<instance part="P+3" gate="1" x="96.52" y="99.06" smashed="yes">
-<attribute name="VALUE" x="93.98" y="93.98" size="1.778" layer="96" rot="R90"/>
+<instance part="GND1" gate="1" x="162.56" y="104.14" smashed="yes" rot="R180"/>
+<instance part="GND2" gate="1" x="96.52" y="104.14" smashed="yes" rot="R180"/>
+<instance part="P+3" gate="1" x="91.44" y="104.14" smashed="yes">
+<attribute name="VALUE" x="88.9" y="104.14" size="1.778" layer="96" rot="R180"/>
 </instance>
 </instances>
 <busses>
@@ -742,68 +702,68 @@ Datasheet: &lt;a href="https://docs-emea.rs-online.com/webdocs/12b7/0900766b812b
 <segment>
 <pinref part="GND15" gate="1" pin="GND"/>
 <pinref part="LD1" gate="G$1" pin="GND"/>
-<wire x1="147.32" y1="76.2" x2="147.32" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="142.24" y1="81.28" x2="142.24" y2="83.82" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND1" gate="1" pin="GND"/>
-<wire x1="167.64" y1="96.52" x2="167.64" y2="88.9" width="0.1524" layer="91"/>
-<pinref part="X1" gate="G$1" pin="3"/>
-<wire x1="167.64" y1="88.9" x2="177.8" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="162.56" y1="101.6" x2="162.56" y2="93.98" width="0.1524" layer="91"/>
+<pinref part="X2" gate="G$1" pin="3"/>
+<wire x1="162.56" y1="93.98" x2="180.34" y2="93.98" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND2" gate="1" pin="GND"/>
-<pinref part="X3" gate="G$1" pin="2"/>
-<wire x1="101.6" y1="96.52" x2="101.6" y2="88.9" width="0.1524" layer="91"/>
-<wire x1="101.6" y1="88.9" x2="91.44" y2="88.9" width="0.1524" layer="91"/>
+<pinref part="X1" gate="G$1" pin="2"/>
+<wire x1="96.52" y1="101.6" x2="96.52" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="93.98" x2="78.74" y2="93.98" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="+5V" class="0">
 <segment>
 <pinref part="LD1" gate="G$1" pin="VDD"/>
 <pinref part="P+4" gate="1" pin="+5V"/>
-<wire x1="147.32" y1="96.52" x2="147.32" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="142.24" y1="101.6" x2="142.24" y2="99.06" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="X1" gate="G$1" pin="4"/>
-<wire x1="177.8" y1="91.44" x2="172.72" y2="91.44" width="0.1524" layer="91"/>
+<pinref part="X2" gate="G$1" pin="4"/>
+<wire x1="180.34" y1="96.52" x2="167.64" y2="96.52" width="0.1524" layer="91"/>
 <pinref part="P+2" gate="1" pin="+5V"/>
-<wire x1="172.72" y1="91.44" x2="172.72" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="167.64" y1="96.52" x2="167.64" y2="101.6" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="X3" gate="G$1" pin="1"/>
-<wire x1="91.44" y1="91.44" x2="96.52" y2="91.44" width="0.1524" layer="91"/>
+<pinref part="X1" gate="G$1" pin="1"/>
+<wire x1="78.74" y1="96.52" x2="91.44" y2="96.52" width="0.1524" layer="91"/>
 <pinref part="P+3" gate="1" pin="+5V"/>
-<wire x1="96.52" y1="91.44" x2="96.52" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="91.44" y1="96.52" x2="91.44" y2="101.6" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$37" class="0">
+<net name="LED-SPI-CLK-OUT" class="0">
 <segment>
 <pinref part="LD1" gate="G$1" pin="CKO"/>
-<pinref part="X1" gate="G$1" pin="2"/>
-<wire x1="177.8" y1="86.36" x2="147.32" y2="86.36" width="0.1524" layer="91"/>
-<wire x1="147.32" y1="86.36" x2="147.32" y2="88.9" width="0.1524" layer="91"/>
+<pinref part="X2" gate="G$1" pin="2"/>
+<wire x1="180.34" y1="91.44" x2="142.24" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="142.24" y1="91.44" x2="142.24" y2="93.98" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$39" class="0">
+<net name="LED-SPI-MOSI-OUT" class="0">
 <segment>
 <pinref part="LD1" gate="G$1" pin="SDO"/>
-<pinref part="X1" gate="G$1" pin="1"/>
-<wire x1="147.32" y1="83.82" x2="177.8" y2="83.82" width="0.1524" layer="91"/>
+<pinref part="X2" gate="G$1" pin="1"/>
+<wire x1="142.24" y1="88.9" x2="180.34" y2="88.9" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="LED-SPI-CLK" class="0">
+<net name="LED-SPI-CLK-IN" class="0">
 <segment>
 <pinref part="LD1" gate="G$1" pin="CKI"/>
-<pinref part="X3" gate="G$1" pin="3"/>
-<wire x1="91.44" y1="86.36" x2="121.92" y2="86.36" width="0.1524" layer="91"/>
-<wire x1="121.92" y1="86.36" x2="121.92" y2="88.9" width="0.1524" layer="91"/>
+<pinref part="X1" gate="G$1" pin="3"/>
+<wire x1="78.74" y1="91.44" x2="116.84" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="116.84" y1="91.44" x2="116.84" y2="93.98" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="LED-SPI-MOSI" class="0">
+<net name="LED-SPI-MOSI-IN" class="0">
 <segment>
 <pinref part="LD1" gate="G$1" pin="SDI"/>
-<pinref part="X3" gate="G$1" pin="4"/>
-<wire x1="91.44" y1="83.82" x2="121.92" y2="83.82" width="0.1524" layer="91"/>
+<pinref part="X1" gate="G$1" pin="4"/>
+<wire x1="78.74" y1="88.9" x2="116.84" y2="88.9" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

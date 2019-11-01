@@ -1,0 +1,6 @@
+Stückliste exportiert aus /home/mario/Dokumente/Eagle/Projekte/Privat/MateLightScrewCap/MateLightScrewCap.sch am 31.10.19 21:27
+
+Qty Value         Device             Package           Parts Description                                                    DESCRIPTION DIGI-KEY    MF    MFN     MOUSER RS-ONLINE
+1   APA102        APA102APA102C-5050 APA102C-5050      LD1   DotStar Micro LEDs (APA102–2020)- Smart SMD RGB LED - 100 pack                                                       
+1   S4B-PH-SM4    S4B-PH-SM4-TB      JST_S4B-PH-SM4-TB X2    JST - S4B-PH-SM4-TB                                             Socket      wire-board  male  PIN: 4  2mm    SMT     
+1   S4B-PH-SM4-TB S4B-PH-SM4-TB      JST_S4B-PH-SM4-TB X1    JST - S4B-PH-SM4-TB                                             Socket      wire-board  male  PIN: 4  2mm    SMT     
