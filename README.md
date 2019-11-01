@@ -1,24 +1,19 @@
-# Bottle Light: Eagle Data (PCB)
+# MateLightScrewCap
 
-Bottle Light is a coaster that make your bottle glow in all colors of the rainbow. More information about the Bottle Light project can be found in the main repository: [bottle-light](https://github.com/HansAchterbahn/bottle-light)
+This Repo bases on the idear of MateLight and improves it by an screw cap whish is easy to install and easy to remove from the costers.
 
 In this Repository you can find the shematics and board layouts created in Eagle.
 
 *Fork me and have fun!*
 
-
 ## Schematic
 
-![LED Ring Schematic](doku/bottle-light-sch-1.png)
-![LED Ring Schematic](doku/bottle-light-sch-2.png)
-
+... comming soon
 
 ## Board
 
-![LED Ring Board](doku/bottle-light-brd.png) 
+... comming soon
 
 ## 3D View (Fusion360)
 
-![LED Ring 3D top site](doku/bottle-light-fusion-3d-bottom.png)
-![LED Ring 3D bottom site](doku/bottle-light-fusion-3d-top.png)
-
+... comming soon
