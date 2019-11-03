@@ -770,33 +770,8 @@ with a 5V/2A power supply. After 80 modules an additional
 </sheet>
 </sheets>
 <errors>
-<approved hash="104,1,160.02,157.48,LD1,VDD,+5V,,,"/>
-<approved hash="104,1,187.96,157.48,LD2,VDD,+5V,,,"/>
-<approved hash="104,1,215.9,157.48,LD3,VDD,+5V,,,"/>
-<approved hash="104,1,243.84,157.48,LD4,VDD,+5V,,,"/>
-<approved hash="104,1,160.02,121.92,LD5,VDD,+5V,,,"/>
-<approved hash="104,1,187.96,121.92,LD6,VDD,+5V,,,"/>
-<approved hash="104,1,215.9,121.92,LD7,VDD,+5V,,,"/>
-<approved hash="104,1,243.84,121.92,LD8,VDD,+5V,,,"/>
-<approved hash="104,1,160.02,86.36,LD9,VDD,+5V,,,"/>
-<approved hash="104,1,187.96,86.36,LD10,VDD,+5V,,,"/>
-<approved hash="104,1,215.9,86.36,LD11,VDD,+5V,,,"/>
-<approved hash="104,1,243.84,86.36,LD12,VDD,+5V,,,"/>
-<approved hash="104,1,160.02,50.8,LD13,VDD,+5V,,,"/>
-<approved hash="104,1,187.96,50.8,LD14,VDD,+5V,,,"/>
-<approved hash="104,1,215.9,50.8,LD15,VDD,+5V,,,"/>
-<approved hash="104,1,243.84,50.8,LD16,VDD,+5V,,,"/>
-<approved hash="104,1,30.48,144.78,J2,VCC,5V-IN,,,"/>
-<approved hash="106,1,33.02,48.26,!TOUCH-SPI-SS,,,,,"/>
-<approved hash="106,1,55.88,43.18,TOUCH-BTN1,,,,,"/>
-<approved hash="106,1,55.88,45.72,TOUCH-BTN2,,,,,"/>
-<approved hash="106,1,33.02,43.18,TOUCH-BTN3,,,,,"/>
-<approved hash="106,1,55.88,48.26,TOUCH-DR,,,,,"/>
-<approved hash="106,1,55.88,50.8,TOUCH-SPI-MISO,,,,,"/>
-<approved hash="106,1,33.02,45.72,TOUCH-SPI-MOSI,,,,,"/>
-<approved hash="106,1,33.02,50.8,TOUCH-SPI-SCK,,,,,"/>
+<approved hash="104,1,142.24,99.06,LD1,VDD,+5V,,,"/>
 <approved hash="113,1,130.071,89.431,FRAME3,,,,,"/>
-<approved hash="113,1,111.802,42.8904,SV2,,,,,"/>
 </errors>
 </schematic>
 </drawing>
