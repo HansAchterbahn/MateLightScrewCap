@@ -770,7 +770,6 @@ with a 5V/2A power supply. After 80 modules an additional
 </sheet>
 </sheets>
 <errors>
-<approved hash="104,1,142.24,99.06,LD1,VDD,+5V,,,"/>
 <approved hash="113,1,130.071,89.431,FRAME3,,,,,"/>
 </errors>
 </schematic>
