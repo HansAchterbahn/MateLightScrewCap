@@ -544,7 +544,7 @@ Your Multi-CB Team
 <attribute name="RS-ONLINE" value="688-1366" x="10" y="0" size="1" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="-4.5" y="-10.5" size="1" layer="25" font="vector"/>
 </element>
-<element name="X1" library="h8-connector" library_urn="urn:adsk.eagle:library:13329207" package="JST_S4B-PH-SM4-TB" package3d_urn="urn:adsk.eagle:package:14877512/5" value="S4B-PH-SM4-TB" x="-10" y="0" smashed="yes" rot="R90">
+<element name="X1" library="h8-connector" library_urn="urn:adsk.eagle:library:13329207" package="JST_S4B-PH-SM4-TB" package3d_urn="urn:adsk.eagle:package:14877512/5" value="S4B-PH-SM4" x="-10" y="0" smashed="yes" rot="R90">
 <attribute name="DESCRIPTION" value=" Socket; wire-board; male; PIN: 4; 2mm; SMT; PH; 100V; 2A; -25÷85°C " x="-10" y="0" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DIGI-KEY" value="455-1751-2-ND" x="-10" y="0" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MF" value="JST Sales" x="-10" y="0" size="1" layer="27" rot="R90" display="off"/>
