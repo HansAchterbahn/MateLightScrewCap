@@ -8,7 +8,7 @@ In this Repository you can find the schematics and board layouts created in Eagl
 
 ## 3D View (Fusion360)
 
-Animated 3D STL modell: [3d-model/MateLightScrewCap.stl](https://github.com/HansAchterbahn/MateLightScrewCap/blob/Release-36c3/3d-model/MateLightScrewCap.stl)
+Animated 3D STL model: [3d-model/MateLightScrewCap.stl](https://github.com/HansAchterbahn/MateLightScrewCap/blob/Release-36c3/3d-model/MateLightScrewCap.stl)
 
 __Top view__
 
