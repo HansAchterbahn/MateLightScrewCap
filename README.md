@@ -6,6 +6,22 @@ In this Repository you can find the schematics and board layouts created in Eagl
 *Fork me and have fun!*
 
 
+## Power source
+
+An APA102C LED consumes a maximum of 60 mA (red/green/blue each 20 mA). It is recommended to use a new 5 V / 1.4 mA power source for each 20 bottles(higher current delivery dose not matter).
+
+```
+  ___  ^ 5V /    LED 1                            LED 19             LED 20             ___  ^ 5V /   LED 21     
+   |   | 1.4A  ___________  +5V            +5V   ___________  +5V    ___________ +5V     |   | 1.4A  ___________  +5V  
+   |   °------|    ___    |------         ------|    ___    |------|    ___    |--|      |   °------|    ___    |------
+   |     GND  |   /   \   | GND            GND  |   /   \   | GND  |   /   \   | GND     |     GND  |   /   \   | GND  
+---°----------|  |     |  |------         ------|  |     |  |------|  |     |  |---------°----------|  |     |  |------
+         CLK  |  |     |  | CLK     ...    CLK  |  |     |  | CLK  |  |     |  | CLK           CLK  |  |     |  | CLK     ...
+------->------|  |     |  |------         ------|  |     |  |------|  |     |  |------------->------|  |     |  |------
+         D    |   \___/   | D              D    |   \___/   | D    |   \___/   | D             D    |   \___/   | D    
+------->------|___________|------         ------|___________|------|___________|------------->------|___________|------    
+```
+
 ## 3D View (Fusion360)
 
 Animated 3D STL model: [3d-model/MateLightScrewCap.stl](https://github.com/HansAchterbahn/MateLightScrewCap/blob/Release-36c3/3d-model/MateLightScrewCap.stl)
