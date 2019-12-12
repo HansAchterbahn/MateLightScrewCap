@@ -641,7 +641,7 @@ Datenblatt: &lt;a href="http://www.jst-mfg.com/product/pdf/eng/ePH.pdf?5dbadb1b3
 </class>
 </classes>
 <parts>
-<part name="FRAME3" library="h8-frame" library_urn="urn:adsk.eagle:library:13329330" deviceset="A4L-LOC" device=""/>
+<part name="FRAME" library="h8-frame" library_urn="urn:adsk.eagle:library:13329330" deviceset="A4L-LOC" device=""/>
 <part name="LD1" library="h8-optic" library_urn="urn:adsk.eagle:library:11858716" deviceset="APA102" device="APA102C-5050" package3d_urn="urn:adsk.eagle:package:11858725/2" value="APA102"/>
 <part name="GND15" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="P+4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
@@ -662,12 +662,12 @@ Datenblatt: &lt;a href="http://www.jst-mfg.com/product/pdf/eng/ePH.pdf?5dbadb1b3
 <text x="134.62" y="7.62" size="2.54" layer="97" font="vector">I_APA102 = max. 20mA @ 5V</text>
 <text x="152.4" y="20.32" size="2.54" layer="97" font="vector">&gt;LICENSE</text>
 <text x="134.62" y="20.32" size="2.54" layer="94" font="vector">License:</text>
-<text x="7.62" y="7.62" size="2.54" layer="97" font="vector">It is permitted to operate 80 of these modules in series 
-with a 5V/2A power supply. After 80 modules an additional 
-5V/2A power supply is required!</text>
+<text x="7.62" y="7.62" size="2.54" layer="97" font="vector">It is permitted to operate 20 of these modules in series 
+with a 5V/1.4A power supply. After 20 modules an
+additional 5V/1.4A power supply is required!</text>
 </plain>
 <instances>
-<instance part="FRAME3" gate="G$1" x="0" y="0" smashed="yes">
+<instance part="FRAME" gate="G$1" x="0" y="0" smashed="yes">
 <attribute name="SHEET" x="254" y="5.08" size="2.54" layer="94" font="vector" rot="MR0"/>
 </instance>
 <instance part="LD1" gate="G$1" x="129.54" y="91.44" smashed="yes">
@@ -770,6 +770,7 @@ with a 5V/2A power supply. After 80 modules an additional
 </sheet>
 </sheets>
 <errors>
+<approved hash="104,1,142.24,99.06,LD1,VDD,+5V,,,"/>
 <approved hash="113,1,130.071,89.431,FRAME3,,,,,"/>
 </errors>
 </schematic>
