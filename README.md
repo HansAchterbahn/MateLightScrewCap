@@ -5,45 +5,48 @@ In this Repository you can find the schematics and board layouts created in Eagl
 
 *Fork me and have fun!*
 
+![MateLight on 36c3](https://git.cccgoe.de/jugendgruppe/website/-/raw/master/res/pic/MateLight36c3.jpg)
+**MateLight of CCC youth group Göttingen at the 36c3 event 2019 in Leipzig**
+
 
 ## Power source
 
 An APA102C LED consumes a maximum of 60 mA (red/green/blue each 20 mA). It is recommended to use a new 5 V / 1.4 mA power source for each 20 bottles(higher current delivery dose not matter).
 
 ```
-  ___  ^ 5V /    LED 1                            LED 19             LED 20             ___  ^ 5V /   LED 21     
-   |   | 1.4A  ___________  +5V            +5V   ___________  +5V    ___________ +5V     |   | 1.4A  ___________  +5V  
+  ___  ^ 5V /    LED 1                            LED 19             LED 20             ___  ^ 5V /   LED 21
+   |   | 1.4A  ___________  +5V            +5V   ___________  +5V    ___________ +5V     |   | 1.4A  ___________  +5V
    |   °------|    ___    |------         ------|    ___    |------|    ___    |--|      |   °------|    ___    |------
-   |     GND  |   /   \   | GND            GND  |   /   \   | GND  |   /   \   | GND     |     GND  |   /   \   | GND  
+   |     GND  |   /   \   | GND            GND  |   /   \   | GND  |   /   \   | GND     |     GND  |   /   \   | GND
 ---°----------|  |     |  |------         ------|  |     |  |------|  |     |  |---------°----------|  |     |  |------
          CLK  |  |     |  | CLK     ...    CLK  |  |     |  | CLK  |  |     |  | CLK           CLK  |  |     |  | CLK     ...
 ------->------|  |     |  |------         ------|  |     |  |------|  |     |  |------------->------|  |     |  |------
-         D    |   \___/   | D              D    |   \___/   | D    |   \___/   | D             D    |   \___/   | D    
-------->------|___________|------         ------|___________|------|___________|------------->------|___________|------    
+         D    |   \___/   | D              D    |   \___/   | D    |   \___/   | D             D    |   \___/   | D
+------->------|___________|------         ------|___________|------|___________|------------->------|___________|------
 ```
 
 ## 3D View (Fusion360)
 
-Animated 3D STL model: [3d-model/MateLightScrewCap.stl](https://github.com/HansAchterbahn/MateLightScrewCap/blob/Release-36c3/3d-model/MateLightScrewCap.stl)
+Animated 3D STL model: [3d-model/MateLightScrewCap.stl](https://github.com/HansAchterbahn/MateLightScrewCap/blob/master/3d-model/MateLightScrewCap.stl)
 
 __Top view__
 
-![3D top view](doku/MateLightScrewCap-3D-TopView.png)
+![3D top view](doku/3D-Top.png)
 
 __Bottom view__
 
-![3D bottom view](doku/MateLightScrewCap-3D-BottomView.png)
+![3D bottom view](doku/3D-Bottom.png)
 
 ## Schematic
 
-![Schematic view](doku/MateLightScrewCap-Schematic.png)
+![Schematic view](doku/Schematic.png)
 
 ## Board
 
 __Top view__
 
-![Board top view](doku/MateLightScrewCap-Board-Top.png)
+![Board top view](doku/Board-Top.png)
 
 __Bottom view__
 
-![Board top view](doku/MateLightScrewCap-Board-Bottom.png)
+![Board top view](doku/Board-Bottom.png)
