@@ -1,4 +1,4 @@
-# MateLightScrewCap
+# MateLight-ScrewCap
 This Repo is based on the idea of [MateLight](http://matelight.rocks/) and improves it by a screw cap which is easy to install and easy to remove from the coasters.
 
 In this Repository you can find
